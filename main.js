@@ -13,7 +13,7 @@ function capture()
 {
     Webcam.snap(function(data_uri)
     {
-        document.getElementById("output").innerHTML="<img src='"+data_uri+"id='Captured_image'>";
+        document.getElementById("output").innerHTML='<img id="Captured_image" src="'+data_uri+'">';
 
     });
 }
